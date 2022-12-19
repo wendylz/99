@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<title>九九乘法表</title>
+<html>
+    <head></head>
+    <body>
+        
+    </body>
+    <script>
+        for(var i=0;i<10;i++){
+            for(var j=1;j<=i;j++){
+                document.write(i)
+                document.write('*')
+                document.write(j)
+                document.write('=')
+                document.write(i*j)
+				document.write('&nbsp')
+            }
+            document.write('<br>')
+        }
+    </script>
+</html>
